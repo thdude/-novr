@@ -41,6 +41,32 @@
 					},
 				]
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "models/weapons/vr_shotgun/materials/vr_shotgun_chamber_light.vmat"
+								to = "materials/concrete/concretewall001a_red.vmat"
+							},
+							{
+								from = "models/hands/materials/g_glove_health_check_led1.vmat"
+								to = "models/hands/materials/g_glove_health_hearts.vmat"
+							},
+							{
+								from = "models/hands/materials/g_glove_health_check_led2.vmat"
+								to = "models/hands/materials/g_glove_health_hearts_02.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
