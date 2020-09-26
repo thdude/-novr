@@ -77,13 +77,13 @@
 						activity_name = "ACT_VM_IDLE"
 						activity_weight = 1
 						weight_list_name = ""
-						fade_in_time = 0.2
+						fade_in_time = 0.0
 						fade_out_time = 0.0
 						looping = true
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = false
+						anim_markup_ordered = true
 						disable_compression = false
 						source_filename = "models/weapons/weapon_anims/v_pistol/idle01.dmx"
 						start_frame = -1
@@ -94,17 +94,38 @@
 					{
 						_class = "AnimFile"
 						name = "fire"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 1
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = true
+									stop_immediately = true
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
 						activity_name = "ACT_VM_PRIMARYATTACK"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.0
-						fade_out_time = 0.2
+						fade_out_time = 0.0
 						looping = false
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
+						anim_markup_ordered = true
+						disable_compression = true
 						source_filename = "models/weapons/weapon_anims/v_pistol/fire.dmx"
 						start_frame = -1
 						end_frame = -1
@@ -123,7 +144,7 @@
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = false
+						anim_markup_ordered = true
 						disable_compression = false
 						source_filename = "models/weapons/weapon_anims/v_pistol/draw.dmx"
 						start_frame = -1
@@ -143,7 +164,7 @@
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = false
+						anim_markup_ordered = true
 						disable_compression = false
 						source_filename = "models/weapons/weapon_anims/v_pistol/reload.dmx"
 						start_frame = -1
@@ -163,7 +184,7 @@
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = false
+						anim_markup_ordered = true
 						disable_compression = false
 						source_filename = "models/weapons/weapon_anims/v_pistol/holster.dmx"
 						start_frame = -1
@@ -173,6 +194,21 @@
 					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "animation_root_bone"
+						relative_origin = [ -0.003747, 2.031155, 8.213625 ]
+						relative_angles = [ 270.0, 90.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
 			},
 		]
 		model_archetype = ""
