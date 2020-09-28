@@ -87,7 +87,7 @@
 						disable_compression = false
 						source_filename = "models/weapons/weapon_anims/v_pistol/idle01.dmx"
 						start_frame = -1
-						end_frame = -1
+						end_frame = 0
 						framerate = -1.0
 						reverse = false
 					},
@@ -250,6 +250,26 @@
 						anim_markup_ordered = true
 						disable_compression = true
 						source_filename = "models/weapons/weapon_anims/v_pistol/fire3.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fireempty"
+						activity_name = "ACT_VM_DRYFIRE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.05
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/weapon_anims/v_pistol/fireempty.dmx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
