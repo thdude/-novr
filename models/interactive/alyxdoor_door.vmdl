@@ -46,7 +46,7 @@
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
-						fade_in_time = 0.1
+						fade_in_time = 0.0
 						fade_out_time = 0.0
 						looping = false
 						delta = false
@@ -81,8 +81,8 @@
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
+						fade_in_time = 0.0
+						fade_out_time = 0.0
 						looping = false
 						delta = false
 						worldSpace = false
@@ -101,7 +101,7 @@
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
-						fade_in_time = 0.1
+						fade_in_time = 0.0
 						fade_out_time = 0.0
 						looping = false
 						delta = false
@@ -121,7 +121,7 @@
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
-						fade_in_time = 0.1
+						fade_in_time = 0.0
 						fade_out_time = 0.0
 						looping = false
 						delta = false
@@ -141,8 +141,8 @@
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
+						fade_in_time = 0.0
+						fade_out_time = 0.0
 						looping = false
 						delta = false
 						worldSpace = false
@@ -173,11 +173,26 @@
 								parent_bone = "root"
 								hitbox_mins = [ -24.828779, -0.5, -3.021599 ]
 								hitbox_maxs = [ 29.271296, 92.616234, 4.814683 ]
-								surface_property = ""
+								surface_property = "default"
 								translation_only = false
 								group_id = 0
 							},
 						]
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "button_attach"
+						parent_bone = "root"
+						relative_origin = [ 0.0, 45.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
 					},
 				]
 			},
