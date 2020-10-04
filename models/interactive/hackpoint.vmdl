@@ -1,0 +1,228 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "rendermeshshape0.vmat"
+								to = "materials/models/props_combine/combine_hacking_point.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "projector"
+						parent_bone = "rotor9"
+						relative_origin = [ 0.451706, -0.001925, 0.053905 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "base"
+						parent_bone = "barrel"
+						relative_origin = [ -1.386314, 0.141315, -0.086109 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = true
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "fbx_sources/hackpoint.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "hackpoint_scan"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								name = "particle_scan_start"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/choreo/scanner_face_scan_parent.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "projector"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = "projector"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "particle_scan_stop"
+								event_class = "AE_CL_STOP_PARTICLE_EFFECT"
+								event_frame = 30
+								event_keys = 
+								{
+									name = resource:"particles/choreo/scanner_face_scan_parent.vpcf"
+									stop_instantly = false
+									play_endcap = true
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "sound_out"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "HackingPlug.Connect"
+									attachment = "base"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "sound_in"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+								event_frame = 26
+								event_keys = 
+								{
+									name = "HackingPlug.Move"
+									attachment = "base"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "sound_scanstart"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+								event_frame = 5
+								event_keys = 
+								{
+									name = "HackingPuzzle.InitHoloMeshAppear"
+									attachment = "projector"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "sound_scansuccsess"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+								event_frame = 24
+								event_keys = 
+								{
+									name = "HackingPuzzle.TripmineSuccess"
+									attachment = "projector"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/interactive/hackpoint_scan.dmx"
+						start_frame = -1
+						end_frame = 55
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "hackpoint_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/interactive/hackpoint_scan.dmx"
+						start_frame = -1
+						end_frame = 0
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "hackpoint_scanned_end"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/interactive/hackpoint_scan.dmx"
+						start_frame = 1440
+						end_frame = 1440
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
