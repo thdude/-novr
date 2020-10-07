@@ -45,4 +45,65 @@
 			"sounds/pistol_holster.vsnd",
 		]
 	}
+	"novr.Alyxdoor.move" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 70.0
+		volume_falloff_max = 2700.0
+		volume_fade_out = 1
+		volume_fade_in = 0
+		spread_min = 30
+		spread_max = 150
+		vsnd_files = 
+		[
+			"sounds/alyxdoor_door_open.vsnd",
+		]
+	}
+	
+	"novr.Radio.knobMove" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 70.0
+		volume_falloff_max = 2700.0
+		volume_fade_out = 1
+		volume_fade_in = 0
+		spread_min = 30
+		spread_max = 150
+		vsnd_files = 
+		[
+			"sounds/radio_knobstatic.vsnd",
+		]
+	}
+	"novr.Radio.antennaDown" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 70.0
+		volume_falloff_max = 2700.0
+		volume_fade_out = 1
+		volume_fade_in = 0
+		spread_min = 30
+		spread_max = 150
+		vsnd_files = 
+		[
+			"sounds/radio_antenna_down.vsnd",
+		]
+	}
+	"novr.Radio.antennaUp" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 70.0
+		volume_falloff_max = 2700.0
+		volume_fade_out = 1
+		volume_fade_in = 0
+		spread_min = 30
+		spread_max = 150
+		vsnd_files = 
+		[
+			"sounds/radio_antenna_up.vsnd",
+		]
+	}
 }

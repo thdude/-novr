@@ -287,7 +287,7 @@
 						delta = false
 						worldSpace = false
 						hidden = false
-						anim_markup_ordered = true
+						anim_markup_ordered = false
 						disable_compression = false
 						source_filename = "models/weapons/weapon_anims/v_pistol/draw.dmx"
 						start_frame = -1
@@ -335,6 +335,98 @@
 						framerate = -1.0
 						reverse = false
 					},
+					{
+						_class = "AnimFile"
+						name = "idletolow"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									attachment = "cloth_sounder"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 2
+						weight_list_name = ""
+						fade_in_time = 0.1
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/weapon_anims/v_pistol/idletolow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowidle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.0
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/weapon_anims/v_pistol/lowidle.dmx"
+						start_frame = 0
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowtoidle"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "novrpistol.Draw"
+									attachment = "cloth_sounder"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.1
+						fade_out_time = 0.3
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/weapon_anims/v_pistol/lowtoidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
 				]
 				default_root_bone_name = ""
 			},
@@ -348,6 +440,15 @@
 						parent_bone = "animation_root_bone"
 						relative_origin = [ -0.003747, 2.031155, 8.213625 ]
 						relative_angles = [ 270.0, 90.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "cloth_sounder"
+						parent_bone = ""
+						relative_origin = [ 14.682693, -3.759374, -13.567471 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
