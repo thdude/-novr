@@ -6,6 +6,7 @@
 		children = 
 		[
 			{
+<<<<<<< HEAD
 				_class = "RenderMeshList"
 				children = 
 				[
@@ -52,6 +53,36 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "fbx_sources/alyxarmsnograbbity.fbx"
+=======
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "models/weapons/vr_shotgun/materials/vr_shotgun_chamber__a32.vmat"
+								to = "models/weapons/vr_shotgun/materials/vr_shotgun_chamber_light.vmat"
+							},
+							{
+								from = ""
+								to = "models/weapons/vr_shotgun/materials/vr_shotgun_1001.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "fbx_sources/v_pistol.fbx"
+>>>>>>> 3375f9cd36c2e1115e549fbedb2105ce31109f67
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -61,7 +92,11 @@
 					},
 					{
 						_class = "RenderMeshFile"
+<<<<<<< HEAD
 						filename = "export/grabbityleft.fbx"
+=======
+						filename = "export/sg_shell.fbx"
+>>>>>>> 3375f9cd36c2e1115e549fbedb2105ce31109f67
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -71,7 +106,11 @@
 					},
 					{
 						_class = "RenderMeshFile"
+<<<<<<< HEAD
 						filename = "export/grabbityright.fbx"
+=======
+						filename = "fbx_sources/shotty.fbx"
+>>>>>>> 3375f9cd36c2e1115e549fbedb2105ce31109f67
 						import_scale = 1.0
 						import_filter = 
 						{
