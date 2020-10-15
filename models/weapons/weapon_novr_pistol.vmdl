@@ -84,6 +84,21 @@
 					{
 						_class = "AnimFile"
 						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "ScriptedSeq.A1_Kidnap_Eli_Foley_Bend"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -104,6 +119,21 @@
 					{
 						_class = "AnimFile"
 						name = "holster"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Window_Traverse"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -124,6 +154,58 @@
 					{
 						_class = "AnimFile"
 						name = "fire1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "AlyxPistol.Fire"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_alyxgun_rapid.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "_copy6"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -144,6 +226,58 @@
 					{
 						_class = "AnimFile"
 						name = "fire2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "AlyxPistol.Fire"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_alyxgun_rapid.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "_copy5"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -164,6 +298,58 @@
 					{
 						_class = "AnimFile"
 						name = "fire3"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "AlyxPistol.Fire"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_alyxgun_rapid.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "_copy4"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -184,6 +370,70 @@
 					{
 						_class = "AnimFile"
 						name = "firelast"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "AlyxPistol.Fire"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_alyxgun_rapid.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "_copy3"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Pistol.SlideLock"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -195,15 +445,30 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/weapons/weapon_anims/weapon_novr_pistol/anim_sheet1.dmx"
-						start_frame = 153
-						end_frame = 157
+						source_filename = "models/weapons/weapon_anims/weapon_novr_pistol/shootlast.dmx"
+						start_frame = -1
+						end_frame = 3
 						framerate = -1.0
 						reverse = false
 					},
 					{
 						_class = "AnimFile"
 						name = "fireEmpty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Pistol.NoAmmo"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -218,26 +483,6 @@
 						source_filename = "models/weapons/weapon_anims/weapon_novr_pistol/anim_sheet1.dmx"
 						start_frame = 41
 						end_frame = 49
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "reloadEmpty"
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/weapons/weapon_anims/weapon_novr_pistol/anim_sheet1.dmx"
-						start_frame = 50
-						end_frame = 97
 						framerate = -1.0
 						reverse = false
 					},
@@ -264,6 +509,21 @@
 					{
 						_class = "AnimFile"
 						name = "use_start"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -304,6 +564,21 @@
 					{
 						_class = "AnimFile"
 						name = "use_stop"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -364,20 +639,6 @@
 					{
 						_class = "AnimFile"
 						name = "walk"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -418,6 +679,21 @@
 					{
 						_class = "AnimFile"
 						name = "adsin"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -438,6 +714,21 @@
 					{
 						_class = "AnimFile"
 						name = "adsout"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -458,6 +749,21 @@
 					{
 						_class = "AnimFile"
 						name = "dryfire_ads"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Pistol.NoAmmo"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -478,6 +784,58 @@
 					{
 						_class = "AnimFile"
 						name = "shoot1ads"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "AlyxPistol.Fire"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_alyxgun_rapid.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "_copy"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -498,6 +856,58 @@
 					{
 						_class = "AnimFile"
 						name = "shoot2ads"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "AlyxPistol.Fire"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_alyxgun_rapid.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "_copy1"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -518,6 +928,70 @@
 					{
 						_class = "AnimFile"
 						name = "shoot3ads"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "AlyxPistol.Fire"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_alyxgun_rapid.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								name = "_copy2"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_player_rapidfire.vpcf"
+									detach_from_owner = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point"
+									attachment_point_cp1 = "muzzle"
+									attachment_type_cp1 = "point"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Pistol.SlideLock"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -578,6 +1052,93 @@
 					{
 						_class = "AnimFile"
 						name = "stim"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "HealthPen.Success02"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 15
+								event_keys = 
+								{
+									name = "HealthPen.Deploy"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "HealthPen.Stab"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 23
+								event_keys = 
+								{
+									name = "HealthPen.Retract"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Mantle"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 8
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 23
+								event_keys = 
+								{
+									name = "ScriptedSeq.Ending_Foley_Alyx_Arms_A"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -590,6 +1151,160 @@
 						anim_markup_ordered = false
 						disable_compression = false
 						source_filename = "models/weapons/weapon_anims/weapon_novr_pistol/stim.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Pistol.ClipRelease"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 21
+								event_keys = 
+								{
+									name = "Pistol.ClipInsert"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 37
+								event_keys = 
+								{
+									name = "Pistol.CloseSlide"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 32
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/weapon_anims/weapon_novr_pistol/reload.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "tactica_reload_lmao"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Pistol.ClipRelease"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 21
+								event_keys = 
+								{
+									name = "Pistol.ClipInsert"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 32
+								event_keys = 
+								{
+									name = "PlayerFoley.Arm_movement_layer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/weapon_anims/weapon_novr_pistol/tactica_reload_lmao.dmx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -763,6 +1478,6 @@
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
-		anim_graph_name = ""
+		anim_graph_name = "animgraphs/weapon_novr_pistol.vanmgrph"
 	}
 }
