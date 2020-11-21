@@ -6,6 +6,54 @@
 		children = 
 		[
 			{
+<<<<<<< HEAD
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "fbx_sources/shotgunstuff/body.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "fbx_sources/shotgunstuff/tube.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "fbx_sources/shotgunstuff/slide.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "fbx_sources/shotgunstuff/shell.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "fbx_sources/alyxarmsnograbbity.fbx"
+=======
 				_class = "MaterialGroupList"
 				children = 
 				[
@@ -34,6 +82,7 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "fbx_sources/v_pistol.fbx"
+>>>>>>> 3375f9cd36c2e1115e549fbedb2105ce31109f67
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -43,7 +92,11 @@
 					},
 					{
 						_class = "RenderMeshFile"
+<<<<<<< HEAD
+						filename = "export/grabbityleft.fbx"
+=======
 						filename = "export/sg_shell.fbx"
+>>>>>>> 3375f9cd36c2e1115e549fbedb2105ce31109f67
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -53,7 +106,11 @@
 					},
 					{
 						_class = "RenderMeshFile"
+<<<<<<< HEAD
+						filename = "export/grabbityright.fbx"
+=======
 						filename = "fbx_sources/shotty.fbx"
+>>>>>>> 3375f9cd36c2e1115e549fbedb2105ce31109f67
 						import_scale = 1.0
 						import_filter = 
 						{
